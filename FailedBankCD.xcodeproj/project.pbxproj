@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A0B8C5175D655900A6F704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0B8C4175D655900A6F704 /* UIKit.framework */; };
+		C6A0B8C7175D655900A6F704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0B8C6175D655900A6F704 /* Foundation.framework */; };
+		C6A0B8C9175D655900A6F704 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0B8C8175D655900A6F704 /* CoreGraphics.framework */; };
+		C6A0B8CB175D655900A6F704 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0B8CA175D655900A6F704 /* CoreData.framework */; };
+		C6A0B8D1175D655900A6F704 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8CF175D655900A6F704 /* InfoPlist.strings */; };
+		C6A0B8D3175D655900A6F704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A0B8D2175D655900A6F704 /* main.m */; };
+		C6A0B8D7175D655900A6F704 /* FBCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A0B8D6175D655900A6F704 /* FBCDAppDelegate.m */; };
+		C6A0B8D9175D655900A6F704 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8D8175D655900A6F704 /* Default.png */; };
+		C6A0B8DB175D655900A6F704 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8DA175D655900A6F704 /* Default@2x.png */; };
+		C6A0B8DD175D655900A6F704 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8DC175D655900A6F704 /* Default-568h@2x.png */; };
+		C6A0B8E0175D655900A6F704 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8DE175D655900A6F704 /* MainStoryboard_iPhone.storyboard */; };
+		C6A0B8E3175D655900A6F704 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A0B8E1175D655900A6F704 /* MainStoryboard_iPad.storyboard */; };
+		C6A0B8E6175D655900A6F704 /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A0B8E4175D655900A6F704 /* FailedBankCD.xcdatamodeld */; };
+		C6A0B8E9175D655900A6F704 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A0B8E8175D655900A6F704 /* FBCDMasterViewController.m */; };
+		C6A0B8EC175D655900A6F704 /* FBCDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A0B8EB175D655900A6F704 /* FBCDDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6A0B8C1175D655900A6F704 /* FailedBankCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FailedBankCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0B8C4175D655900A6F704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6A0B8C6175D655900A6F704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6A0B8C8175D655900A6F704 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6A0B8CA175D655900A6F704 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6A0B8CE175D655900A6F704 /* FailedBankCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FailedBankCD-Info.plist"; sourceTree = "<group>"; };
+		C6A0B8D0175D655900A6F704 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6A0B8D2175D655900A6F704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6A0B8D4175D655900A6F704 /* FailedBankCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FailedBankCD-Prefix.pch"; sourceTree = "<group>"; };
+		C6A0B8D5175D655900A6F704 /* FBCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDAppDelegate.h; sourceTree = "<group>"; };
+		C6A0B8D6175D655900A6F704 /* FBCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDAppDelegate.m; sourceTree = "<group>"; };
+		C6A0B8D8175D655900A6F704 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C6A0B8DA175D655900A6F704 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C6A0B8DC175D655900A6F704 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C6A0B8DF175D655900A6F704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C6A0B8E2175D655900A6F704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C6A0B8E5175D655900A6F704 /* FailedBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FailedBankCD.xcdatamodel; sourceTree = "<group>"; };
+		C6A0B8E7175D655900A6F704 /* FBCDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
+		C6A0B8E8175D655900A6F704 /* FBCDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
+		C6A0B8EA175D655900A6F704 /* FBCDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDDetailViewController.h; sourceTree = "<group>"; };
+		C6A0B8EB175D655900A6F704 /* FBCDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A0B8BE175D655900A6F704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A0B8C5175D655900A6F704 /* UIKit.framework in Frameworks */,
+				C6A0B8C7175D655900A6F704 /* Foundation.framework in Frameworks */,
+				C6A0B8C9175D655900A6F704 /* CoreGraphics.framework in Frameworks */,
+				C6A0B8CB175D655900A6F704 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A0B8B8175D655900A6F704 = {
+			isa = PBXGroup;
+			children = (
+				C6A0B8CC175D655900A6F704 /* FailedBankCD */,
+				C6A0B8C3175D655900A6F704 /* Frameworks */,
+				C6A0B8C2175D655900A6F704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A0B8C2175D655900A6F704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0B8C1175D655900A6F704 /* FailedBankCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0B8C3175D655900A6F704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0B8C4175D655900A6F704 /* UIKit.framework */,
+				C6A0B8C6175D655900A6F704 /* Foundation.framework */,
+				C6A0B8C8175D655900A6F704 /* CoreGraphics.framework */,
+				C6A0B8CA175D655900A6F704 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A0B8CC175D655900A6F704 /* FailedBankCD */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0B8D5175D655900A6F704 /* FBCDAppDelegate.h */,
+				C6A0B8D6175D655900A6F704 /* FBCDAppDelegate.m */,
+				C6A0B8DE175D655900A6F704 /* MainStoryboard_iPhone.storyboard */,
+				C6A0B8E1175D655900A6F704 /* MainStoryboard_iPad.storyboard */,
+				C6A0B8E7175D655900A6F704 /* FBCDMasterViewController.h */,
+				C6A0B8E8175D655900A6F704 /* FBCDMasterViewController.m */,
+				C6A0B8EA175D655900A6F704 /* FBCDDetailViewController.h */,
+				C6A0B8EB175D655900A6F704 /* FBCDDetailViewController.m */,
+				C6A0B8E4175D655900A6F704 /* FailedBankCD.xcdatamodeld */,
+				C6A0B8CD175D655900A6F704 /* Supporting Files */,
+			);
+			path = FailedBankCD;
+			sourceTree = "<group>";
+		};
+		C6A0B8CD175D655900A6F704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0B8CE175D655900A6F704 /* FailedBankCD-Info.plist */,
+				C6A0B8CF175D655900A6F704 /* InfoPlist.strings */,
+				C6A0B8D2175D655900A6F704 /* main.m */,
+				C6A0B8D4175D655900A6F704 /* FailedBankCD-Prefix.pch */,
+				C6A0B8D8175D655900A6F704 /* Default.png */,
+				C6A0B8DA175D655900A6F704 /* Default@2x.png */,
+				C6A0B8DC175D655900A6F704 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A0B8C0175D655900A6F704 /* FailedBankCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A0B8EF175D655900A6F704 /* Build configuration list for PBXNativeTarget "FailedBankCD" */;
+			buildPhases = (
+				C6A0B8BD175D655900A6F704 /* Sources */,
+				C6A0B8BE175D655900A6F704 /* Frameworks */,
+				C6A0B8BF175D655900A6F704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FailedBankCD;
+			productName = FailedBankCD;
+			productReference = C6A0B8C1175D655900A6F704 /* FailedBankCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A0B8B9175D655900A6F704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBCD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zakk Hoyt";
+			};
+			buildConfigurationList = C6A0B8BC175D655900A6F704 /* Build configuration list for PBXProject "FailedBankCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6A0B8B8175D655900A6F704;
+			productRefGroup = C6A0B8C2175D655900A6F704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A0B8C0175D655900A6F704 /* FailedBankCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A0B8BF175D655900A6F704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A0B8D1175D655900A6F704 /* InfoPlist.strings in Resources */,
+				C6A0B8D9175D655900A6F704 /* Default.png in Resources */,
+				C6A0B8DB175D655900A6F704 /* Default@2x.png in Resources */,
+				C6A0B8DD175D655900A6F704 /* Default-568h@2x.png in Resources */,
+				C6A0B8E0175D655900A6F704 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C6A0B8E3175D655900A6F704 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A0B8BD175D655900A6F704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A0B8D3175D655900A6F704 /* main.m in Sources */,
+				C6A0B8D7175D655900A6F704 /* FBCDAppDelegate.m in Sources */,
+				C6A0B8E6175D655900A6F704 /* FailedBankCD.xcdatamodeld in Sources */,
+				C6A0B8E9175D655900A6F704 /* FBCDMasterViewController.m in Sources */,
+				C6A0B8EC175D655900A6F704 /* FBCDDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6A0B8CF175D655900A6F704 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A0B8D0175D655900A6F704 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6A0B8DE175D655900A6F704 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A0B8DF175D655900A6F704 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A0B8E1175D655900A6F704 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A0B8E2175D655900A6F704 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A0B8ED175D655900A6F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6A0B8EE175D655900A6F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A0B8F0175D655900A6F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FailedBankCD/FailedBankCD-Prefix.pch";
+				INFOPLIST_FILE = "FailedBankCD/FailedBankCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6A0B8F1175D655900A6F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FailedBankCD/FailedBankCD-Prefix.pch";
+				INFOPLIST_FILE = "FailedBankCD/FailedBankCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A0B8BC175D655900A6F704 /* Build configuration list for PBXProject "FailedBankCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A0B8ED175D655900A6F704 /* Debug */,
+				C6A0B8EE175D655900A6F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A0B8EF175D655900A6F704 /* Build configuration list for PBXNativeTarget "FailedBankCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A0B8F0175D655900A6F704 /* Debug */,
+				C6A0B8F1175D655900A6F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6A0B8E4175D655900A6F704 /* FailedBankCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6A0B8E5175D655900A6F704 /* FailedBankCD.xcdatamodel */,
+			);
+			currentVersion = C6A0B8E5175D655900A6F704 /* FailedBankCD.xcdatamodel */;
+			path = FailedBankCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6A0B8B9175D655900A6F704 /* Project object */;
+}
