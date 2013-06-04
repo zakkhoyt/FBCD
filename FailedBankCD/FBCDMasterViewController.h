@@ -8,15 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class FBCDDetailViewController;
-
-#import <CoreData/CoreData.h>
-
-@interface FBCDMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
-
-@property (strong, nonatomic) FBCDDetailViewController *detailViewController;
-
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
+@interface FBCDMasterViewController : UITableViewController
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) NSArray *failedBankInfos;
 @end
